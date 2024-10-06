@@ -11,7 +11,7 @@ import { SVGProps } from "react"
 import { FaGithub } from "react-icons/fa";
 import Head from '../../components/component/head'
 
-export default function Component() {
+function Component() {
   return (
 
     <div> 
@@ -256,3 +256,5 @@ function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) 
     </svg>
   )
 }
+
+export default Component;

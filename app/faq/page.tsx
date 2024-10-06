@@ -21,7 +21,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 import { JSX, SVGProps } from "react"
 import Head from '../../components/component/head'
 
-export function faq() {
+function faq() {
   return (
     <div>
       <Head />
@@ -78,7 +78,7 @@ export function faq() {
                 <span>6. Can parents access SCMS data?</span>
               </AccordionTrigger>
               <AccordionContent className="bg-background rounded-md px-4 py-3 text-muted-foreground">
-              While the primary users are teachers and administrators, SCMS can be configured to send alerts or reports to parents, keeping them informed about their child's behavior, attendance, and emotional well-being.
+              While the primary users are teachers and administrators, SCMS can be configured to send alerts or reports to parents, keeping them informed about their child&apos;s behavior, attendance, and emotional well-being.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="question-7">

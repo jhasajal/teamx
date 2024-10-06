@@ -29,14 +29,13 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectTrigger } from "@/components/ui/select";
 import { SelectContent, SelectItem, SelectValue } from "@radix-ui/react-select";
 import Head from "../../components/component/head";
-import { Html } from "next/document";
+// import { Html } from "next/document";
 import SVGProps from  "../../public/assets/Rightarrow.svg"
 import { useState, useEffect } from "react"
 import { MdOutlineArrowRight } from "react-icons/md";
 import { BsArrowUpCircleFill } from "react-icons/bs";
 
-
-export function docs() {
+function Docs() {
   const [showScrollToTopButton, setShowScrollToTopButton] = useState(false)
   useEffect(() => {
     const handleScroll = () => {
@@ -184,7 +183,7 @@ export function docs() {
             </h4>
             <ul>
               <li>
-                • Analyzes facial expressions to gauge students' emotional
+                • Analyzes facial expressions to gauge students emotional
                 states (e.g., boredom, confusion, interest).{" "}
               </li>
               <li>
@@ -637,7 +636,7 @@ export function docs() {
             <ul>
               <li>
                 • Alerts and Communication : Parents can receive timely updates
-                about their child's behavior, attendance, and even emotional
+                about their child&apos;s behavior, attendance, and even emotional
                 well-being, encouraging a stronger home-school connection.
               </li>
             </ul>
@@ -731,13 +730,13 @@ export function docs() {
                 • The Smart Classroom Management Software (SCMS) represents a
                 revolutionary approach to classroom management and student
                 engagement by integrating advanced machine learning, IoT, and
-                real-time video analytics. The system's ability to detect
+                real-time video analytics. The system&apos;s ability to detect
                 emotional distress, monitor teacher performance, and ensure
                 classroom safety makes it a comprehensive tool for modern
                 educational settings. Its cost-effectiveness, scalability, and
                 ability to provide personalized insights for both students and
                 teachers make it an innovative solution that caters to the
-                dynamic needs of today's classrooms.{" "}
+                dynamic needs of today&apos;s classrooms.{" "}
               </li>
             </ul>
           </div>
@@ -756,4 +755,4 @@ export function docs() {
   );
 }
 
-export default docs;
+export default Docs;

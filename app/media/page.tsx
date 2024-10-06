@@ -31,7 +31,7 @@ import { Select, SelectTrigger } from "@/components/ui/select"
 import { SelectContent, SelectItem, SelectValue } from "@radix-ui/react-select"
 import Head from '../../components/component/head'
 
-export function media() {
+function media() {
   return (
   <div>
     <Head />

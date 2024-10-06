@@ -6,7 +6,7 @@ import './globals.css'
 import Head from '../components/component/head'
 import Foot from '../components/component/footer'
 
-export function landing() {
+function landing() {
   return (
     <div className="w-full">
       <Head />

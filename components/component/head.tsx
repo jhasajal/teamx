@@ -9,7 +9,7 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import '../../app/globals.css'
 
-export function header() {
+function header() {
   return (
     <div className="w-full">
       <header className="flex items-center justify-between p-4 bg-white border-b">

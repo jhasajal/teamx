@@ -20,7 +20,7 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { JSX, SVGProps } from "react"
 
-export function foot() {
+function foot() {
   return (
     <footer className="bg-muted md:py-8 bg-[#0B2543] text-white grid grid-cols-3 px-4 py-3">
       <div className="container flex flex-col items-start justify-start gap-4 md:flex-row">

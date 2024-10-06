@@ -33,7 +33,7 @@ import { Badge } from "@/components/ui/badge"
 import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from "@/components/ui/chart"
 import { AreaChart, CartesianGrid, XAxis, Area } from "recharts"
 
-export function dashboard() {
+function Dashboard() {
   return (
     <div className="flex min-h-screen w-full flex-col bg-muted/40">
       <header className="sticky top-0 z-30 flex h-14 items-center gap-4 border-b bg-background px-4 sm:static sm:h-auto sm:border-0 sm:bg-transparent sm:px-6">
@@ -338,6 +338,8 @@ export function dashboard() {
     </div>
   )
 }
+
+export default Dashboard;
 
 
 
